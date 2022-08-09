@@ -1,0 +1,45 @@
+Exception in Tkinter callback
+Traceback (most recent call last):
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.181.0_x64__qbz5n2kfra8p0\Lib\tkinter\__init__.py", line 1948, in __call__
+    return self.func(*args)
+           ^^^^^^^^^^^^^^^^
+  File "A:\0 Level 3\Python\Page Pro2\calc.py", line 298, in <lambda>
+    self.ButtonEq.bind('<Button-1>',lambda e:calc_support.getres(e))
+                                             ^^^^^^^^^^^^^^^^^^^^^^
+  File "A:\0 Level 3\Python\Page Pro2\calc_support.py", line 34, in getres
+    _w1.scr.configure(text=eval(snum))
+                           ^^^^^^^^^^
+  File "<string>", line 1
+    2*(5+3
+      ^
+SyntaxError: '(' was never closed
+Exception in Tkinter callback
+Traceback (most recent call last):
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.181.0_x64__qbz5n2kfra8p0\Lib\tkinter\__init__.py", line 1948, in __call__
+    return self.func(*args)
+           ^^^^^^^^^^^^^^^^
+  File "A:\0 Level 3\Python\Page Pro2\calc.py", line 298, in <lambda>
+    self.ButtonEq.bind('<Button-1>',lambda e:calc_support.getres(e))
+                                             ^^^^^^^^^^^^^^^^^^^^^^
+  File "A:\0 Level 3\Python\Page Pro2\calc_support.py", line 34, in getres
+    _w1.scr.configure(text=eval(snum))
+                           ^^^^^^^^^^
+  File "<string>", line 1
+    2*(5+3
+      ^
+SyntaxError: '(' was never closed
+Exception in Tkinter callback
+Traceback (most recent call last):
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.11_3.11.181.0_x64__qbz5n2kfra8p0\Lib\tkinter\__init__.py", line 1948, in __call__
+    return self.func(*args)
+           ^^^^^^^^^^^^^^^^
+  File "A:\0 Level 3\Python\Page Pro2\calc.py", line 298, in <lambda>
+    self.ButtonEq.bind('<Button-1>',lambda e:calc_support.getres(e))
+                                             ^^^^^^^^^^^^^^^^^^^^^^
+  File "A:\0 Level 3\Python\Page Pro2\calc_support.py", line 34, in getres
+    _w1.scr.configure(text=eval(snum))
+                           ^^^^^^^^^^
+  File "<string>", line 1
+    2*(5+3
+      ^
+SyntaxError: '(' was never closed
